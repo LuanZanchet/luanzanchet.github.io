@@ -1,8 +1,8 @@
 # Site settings
 title: Lorem Ipsum - Web Developer
 description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://luanzanchet.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: lorem ipsum
@@ -47,11 +47,11 @@ links:
       key_trigger: 5
   section_2:
     - title: github
-      url: http://www.github.com/victorvoid
+      url: http://www.github.com/luanzanchet
       new_tab: true
       key_trigger: g
     - title: twitter
-      url: http://www.twitter.com/victorvoid
+      url: http://www.twitter.com/luanzanchet
       key_trigger: t
     - title: search
       url: ""
