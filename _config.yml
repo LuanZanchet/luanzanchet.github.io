@@ -1,54 +1,70 @@
+# Site settings
+title: Luan Zanchet - Full Stack Developer
+description: "A developer blog"
+baseurl: "" 
+url: "https://luanzanchet.github.io" 
+
+# User settings
+username: Luan Zanchet
+user_title: Luan Zanchet
+email: luuanzanchet@outlook.com
+twitter_username: luanzanchet
+github_username:  luanzanchet
+gplus_username:  luanzanchet
+linkedin_public_url: luanzanchet # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+disqus_username: luanzanchet
+profile_picture: https://media.licdn.com/dms/image/C4E03AQF1EYgT1qMtRw/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=Xxh1fSk3DMVMTNzsBQ8HU64sjCJMTTAvZoen0atenpA
+
 # Build settings
-permalink: /blog/:year/:title/
 markdown: kramdown
-highlighter: pygments
-plugins: [jekyll-paginate-v2]
+highlighter: rouge
+permalink: /:title/
 
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: "/page/:num/"
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
 
-comments: true
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: home
+      url: /
+      key_trigger: 1
+    - title: my posts
+      url: /posts
+      key_trigger: 2
+    - title: series
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
+    - title: about me
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: github
+      url: http://www.github.com/victorvoid
+      new_tab: true
+      key_trigger: g
+    - title: twitter
+      url: http://www.twitter.com/victorvoid
+      key_trigger: t
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
 
-source: source
-destination: _site
-sass:
-  sass_dir: _sass
-  style: compressed # expanded
+# projects in header index
+projects:
+  - name: fluany
+    url: https://github.com/fluany/fluany
+  - name: vim-frontend
+    url: https://github.com/victorvoid/vim-frontend
+  - name: generator-capybara
+    url: https://github.com/victorvoid/generator-capybara 
 
-# SEO settings
-title: Luan Zanchet
-description: "A developer blog "
-keywords: "Luan, Zanchet, Blog, Dev"
-url: https://luanzanchet.github.io
-baseurl: ""
-
-google_analytics: UA-52446115-1
-repo: http://github.com/luanzanchet/luanzanchet.github.io
-disqus_shortname: "luanzanchet"
-disqus_site_shortname: "luanzanchet"
-
-# Author settings
-author:
-  name: Luan Zanchet
-  job: Full Stack Developer
-  bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
-  thumb: /images/author.jpg
-  email: luuanzanchet@outlook.com
-  url: https://luanzanchet.github.io
-  github: https://github.com/luanzanchet
-  twitter: https://twitter.com/luanzanchet
-  facebook: https://facebook.com/luanzanchet
-  linkedin: https://linkedin.com/in/luanzanchet
-
-# navbar pages
-navbar:
-  - slug: about
-    title: About
-  - slug: icons
-    title: Icons
-  - slug: blog
-    title: Blog
-
-exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
