@@ -374,7 +374,7 @@ a.slideButton,
 
 .dosearch {
     right: 10px;
-    background: #54456e;
+    background: black;
     border-radius: .188rem;
     padding: .125rem .188rem
 }
@@ -383,7 +383,7 @@ a.slideButton,
     cursor: pointer;
     padding: .313rem;
     border-radius: .188rem;
-    background: #54456e;
+    background: #000;
     width: 2.5rem;
     height: 2.5rem;
     fill: #fff
@@ -908,7 +908,7 @@ body {
 .header-site,
 .header-post,
 .page-header {
-    background: #000000;
+    background: #5d4d7a;
     height: 100%;
 }
 
