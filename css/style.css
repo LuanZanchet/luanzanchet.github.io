@@ -1241,15 +1241,8 @@ header .logo a {
 	}
 }
 
-
-/** 
- * ===================================================================
- * 10. intro - (_layout.scss) 
- *
- * ------------------------------------------------------------------- 
- */
 #intro {
-	background: #151515 url(../img/intro-bg.jpg) no-repeat center bottom;
+	background: #050505 url(../img/intro-bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2449,14 +2442,14 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
-	padding-top:200px;
+	padding-top:30px;
 	
 	}
 footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #5375f7;
+	color: #2196F3;
 }
 footer .row {
 	max-width: 900px;
@@ -2535,7 +2528,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #5375f7;
+	background: #2196F3;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
